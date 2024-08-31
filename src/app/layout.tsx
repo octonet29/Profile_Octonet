@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={jetbrainsMono}>
+			<body className={"jetbrainsMono"}>
 				<Header />
 				<StairTransition />
 				<PageTransition>{children}</PageTransition>
