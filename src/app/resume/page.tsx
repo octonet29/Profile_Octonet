@@ -39,19 +39,45 @@ const about = {
 const experience = {
 	icon: "/assets/resume/badge.svg",
 	title: "Iş tejribäm",
-	description:
-		"Özim barada kiçiräk maglumat aýdanymda men 4 ýyl programmist bolup işleýärin. 4 ýylyň içinde men 7 we ondan köp proýektlaryň üstünde işledim. Olaryň içinde Halal söwda, Hilli söwda, Readit Store, Lomaý söwda ýaly saýtlar girýär. Saýtlardan başgada kiçiräk aplicationlary we serverleri(Nginx) işledim",
+	description: "",
 
 	items: [
 		{
-			company: "Sap Çözgüt.",
-			position: "Web Developer",
-			duration: "2019 - 2024",
+			company: "Sap Çözgüt. Front End Developer 2020-2022",
+			position:
+				"Bu saýt meniň ilkinji döreden saýdym we ol saýtda elektron söwdany ýerine ýetirip bolýardy.",
+			duration: "hilli.com.tm",
 		},
 		{
-			company: "Sap Çözgüt",
-			position: "React Dev",
-			duration: "Iýul 2024",
+			company: "Sap Çözgüt. Front End Developer 2021-2024",
+			position:
+				"Lomaý we bölekleýin elektron söwda. Bu saýt esasan hem telekeçiler üçin niýetlenen saýtdy.",
+			duration: "ls.com.tm",
+		},
+
+		{
+			company: "Sap Çözgüt. Front End Developer 2022-2024",
+			position: "Halal söwda atly elektron söwda.",
+			duration: "hs.com.tm",
+		},
+
+		{
+			company: "Sap Çözgüt. Front End Developer 2022",
+			position:
+				"Parkowka üçin front endini yazdym. Bu proýektiň üsti bilen gelýän awtoulaglar naçe sagat parkowkada boldy we naçe manat tölemelidigi barada maglumat çykarýar",
+			duration: "Parking Projeýekt",
+		},
+		{
+			company: "Sap Çözgüt. Mobile Developer 2022-2023",
+			position:
+				"Flutterde ýasalan kiçiräk marketplace. Bu proýektiň üsti bilen men telefonda nähili application döreilýändigini öwrendim. ",
+			duration: "Sap Sargyt",
+		},
+
+		{
+			company: "Sap Çözgüt. Front End Developer 2024",
+			position: "Bitum öndürýän reklamny Landing Page ",
+			duration: "çaly.com.tm",
 		},
 	],
 }
@@ -73,7 +99,7 @@ const education = {
 
 const skills = {
 	icon: "/assets/resume/badge.svg",
-	title: "My skills",
+	title: "Bilýän dillerim",
 	description: "",
 
 	skillList: [
@@ -146,15 +172,17 @@ const Resume = () => {
 											return (
 												<li
 													key={index}
-													className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+													className="bg-[#232329] h-[100%] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
 												>
 													<span className="text-accent">{item.duration}</span>
-													<h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+													<h3 className="text-lg max-w-[100%] min-h-[60px] text-center lg:text-left">
 														{item.position}
 													</h3>
 													<div className="flex items-center gap-3">
 														<span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-														<p className="text-white/60">{item.company}</p>
+														<p className="text-white/60 text-sm py-6">
+															{item.company}
+														</p>
 													</div>
 												</li>
 											)
