@@ -46,17 +46,7 @@ const experience = {
 		{
 			company: "Sap Çözgüt.",
 			position: "Web Developer",
-			duration: "2019 - 2022",
-		},
-		{
-			company: "Sap Çözgüt.",
-			position: "Flutter Developer",
-			duration: "2022 - 2023",
-		},
-		{
-			company: "Sap Çözgüt.",
-			position: "Server (Nginx)",
-			duration: "2023",
+			duration: "2019 - 2024",
 		},
 		{
 			company: "Sap Çözgüt",
