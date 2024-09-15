@@ -27,7 +27,7 @@ const about = {
 	description:
 		"Men 2019-njy ýylda HTML CSS dilini öwrenip Sap Çözgüt-e front end developer bolup işe girdim soňra Python öwrendim we şol dilde kiçiräk api ýazym ondan soňra react geçdim emma react-da parkowkanyň proýektini dynyp Flutter diline geçmeli boldym ol dilde hem sap sargyt ýaly telefon programmasyny düzdim. Şu wagtky ýagdaýda bolsa men React we Server ugrundan işleýarin",
 	info: [
-		{ fieldName: "Addym", fieldValue: "Gülbahar" },
+		{ fieldName: "Adym", fieldValue: "Gülbahar" },
 		{ fieldName: "Telefon belgim", fieldValue: "+99361099273" },
 		{ fieldName: "Iş tejribäm", fieldValue: "4 Ýyl" },
 		{ fieldName: "Milletim", fieldValue: "Türkmen" },
