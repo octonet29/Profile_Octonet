@@ -8,23 +8,23 @@ import Image from "next/image"
 
 const links = [
 	{
-		name: "Главная",
+		name: "Home",
 		path: "/",
 	},
+	// {
+	// 	name: "service",
+	// 	path: "/services",
+	// },
+	// {
+	// 	name: "Resume",
+	// 	path: "/resume",
+	// },
 	{
-		name: "Услуги",
-		path: "/services",
-	},
-	{
-		name: "О нас",
-		path: "/resume",
-	},
-	{
-		name: "Новости",
+		name: "Work",
 		path: "/work",
 	},
 	{
-		name: "Контакты",
+		name: "Contact",
 		path: "/contact",
 	},
 ]

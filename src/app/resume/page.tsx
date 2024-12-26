@@ -23,60 +23,59 @@ import { motion } from "framer-motion"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 const about = {
-	title: "Men barada",
+	title: "About myself",
 	description:
-		"Men 2019-njy ýylda HTML CSS dilini öwrenip Sap Çözgüt-e front end developer bolup işe girdim soňra Python öwrendim we şol dilde kiçiräk api ýazym ondan soňra react geçdim emma react-da parkowkanyň proýektini dynyp Flutter diline geçmeli boldym ol dilde hem sap sargyt ýaly telefon programmasyny düzdim. Şu wagtky ýagdaýda bolsa men React we Server ugrundan işleýarin",
+		"In 2019, I learned HTML CSS and started working as a front end developer at Sap Cözgüt. Then I learned Python and wrote a small API in that language. Then I switched to React, but I had to abandon the parking project in React and switch to Flutter. I also created a phone application like Sap Sargyt in that language. Currently, I work in React and Server.",
 	info: [
-		{ fieldName: "Adym", fieldValue: "Gülbahar" },
-		{ fieldName: "Telefon belgim", fieldValue: "+99361099273" },
-		{ fieldName: "Iş tejribäm", fieldValue: "4 Ýyl" },
-		{ fieldName: "Milletim", fieldValue: "Türkmen" },
+		{ fieldName: "Name", fieldValue: "Gulbahar" },
+		{ fieldName: "Phone", fieldValue: "+99361099273" },
+		{ fieldName: "Experience", fieldValue: "4 year" },
+		{ fieldName: "Nation", fieldValue: "Turkmen" },
 		{ fieldName: "Gmail", fieldValue: "20shamballa01@gmail.com" },
-		{ fieldName: "Dil", fieldValue: "Iňlis dili, Rus dili, Turk dili" },
 	],
 }
 
 const experience = {
 	icon: "/assets/resume/badge.svg",
-	title: "Iş tejribäm",
+	title: "Experience",
 	description: "",
 
 	items: [
 		{
 			company: "Sap Çözgüt. Front End Developer 2020-2022",
 			position:
-				"Bu saýt meniň ilkinji döreden saýdym we ol saýtda elektron söwdany ýerine ýetirip bolýardy.",
+				"This was the first website I created, and it allowed for e-commerce.",
 			duration: "hilli.com.tm",
 		},
 		{
 			company: "Sap Çözgüt. Front End Developer 2021-2024",
 			position:
-				"Lomaý we bölekleýin elektron söwda. Bu saýt esasan hem telekeçiler üçin niýetlenen saýtdy.",
+				"Wholesale and retail e-commerce. This site was primarily intended for entrepreneurs.",
 			duration: "ls.com.tm",
 		},
 
 		{
 			company: "Sap Çözgüt. Front End Developer 2022-2024",
-			position: "Halal söwda atly elektron söwda.",
+			position: "E-commerce called Halal Shopping.",
 			duration: "hs.com.tm",
 		},
 
 		{
 			company: "Sap Çözgüt. Front End Developer 2022",
 			position:
-				"Parkowka üçin front endini yazdym. Bu proýektiň üsti bilen gelýän awtoulaglar naçe sagat parkowkada boldy we naçe manat tölemelidigi barada maglumat çykarýar",
+				"I wrote a front end for parking. Through this project, it outputs information about how many hours the cars have been in the parking lot and how much manat they have to pay.",
 			duration: "Parking Projeýekt",
 		},
 		{
 			company: "Sap Çözgüt. Mobile Developer 2022-2023",
 			position:
-				"Flutterde ýasalan kiçiräk marketplace. Bu proýektiň üsti bilen men telefonda nähili application döreilýändigini öwrendim. ",
+				"A small marketplace made in Flutter. Through this project I learned how to create a mobile application.. ",
 			duration: "Sap Sargyt",
 		},
 
 		{
 			company: "Sap Çözgüt. Front End Developer 2024",
-			position: "Bitum öndürýän reklamny Landing Page ",
+			position: "Landing Page for Bitumen Production Advertisement ",
 			duration: "çaly.com.tm",
 		},
 	],
@@ -84,9 +83,9 @@ const experience = {
 
 const education = {
 	icon: "/assets/resume/cap.svg",
-	title: "Okaýan ýerim",
+	title: "Where I study",
 	description:
-		"2022-nji ýylda men Türkmenistanyň Telekommunikasiýa we Informatika institutynyň Maglumat Tehnologiýalaryny Programmirleme fakultetiniň Kompýuter Ulgamlarynyň Programma Üpjunçiligi toparynyň 1-nji ýyl talyby boldym. Şu wagt men TT&II okuwyň 3-nji ýyl talyby",
+		"In 2022, I became a 1st year student of the Computer Systems Software Group of the Faculty of Information Technologies Programming of the Institute of Telecommunications and Informatics of Turkmenistan. Currently, I am a 3rd year student of the TT&II course.",
 
 	items: [
 		{
@@ -99,7 +98,7 @@ const education = {
 
 const skills = {
 	icon: "/assets/resume/badge.svg",
-	title: "Bilýän dillerim",
+	title: "Languages ​​I know",
 	description: "",
 
 	skillList: [
@@ -153,10 +152,10 @@ const Resume = () => {
 					className="flex flex-col xl:flex-row gap-[60px]"
 				>
 					<TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-						<TabsTrigger value="experience">Iş Tejribäm</TabsTrigger>
-						<TabsTrigger value="education">Okaýan ýerim</TabsTrigger>
-						<TabsTrigger value="skills">Bilýän dillerim</TabsTrigger>
-						<TabsTrigger value="about">Men barada</TabsTrigger>
+						<TabsTrigger value="experience">Experience</TabsTrigger>
+						<TabsTrigger value="education">Where I study</TabsTrigger>
+						<TabsTrigger value="skills">Languages ​​I know</TabsTrigger>
+						<TabsTrigger value="about">About myself</TabsTrigger>
 					</TabsList>
 
 					<div className="min-h-[70vh] w-full">
