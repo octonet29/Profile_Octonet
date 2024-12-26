@@ -25,16 +25,13 @@ const config = {
 			primary: "var(--font-jetbrainsMono)", // Fixed the font family definition
 		},
 		extend: {
-			backgroundColor: {
-				"white-transparent-05": "rgba(255, 255, 255, 0.05)",
-			},
 			colors: {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
-				primary: "#008FE8",
+				primary: "#1c1c22",
 				secondary: {
 					DEFAULT: "hsl(var(--secondary))",
 					foreground: "hsl(var(--secondary-foreground))",
@@ -75,14 +72,9 @@ const config = {
 					to: { height: "0" },
 				},
 			},
-			spacing: {
-				"977": "977px",
-				"944": "944px",
-				"35.33": "35.33px",
-				"449.7": "449.7px",
-			},
-			rotate: {
-				"-105": "-105deg",
+			animation: {
+				"accordion-down": "accordion-down 0.2s ease-out",
+				"accordion-up": "accordion-up 0.2s ease-out",
 			},
 		},
 	},
