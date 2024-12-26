@@ -8,7 +8,7 @@ const socials = [
 	},
 	{
 		icon: <FaInstagram />,
-		path: "https://www.instagram.com/octonet29/",
+		path: "https://www.instagram.com/octonet29",
 	},
 	{
 		icon: <FaTelegram />,

@@ -7,19 +7,19 @@ import CountUp from "react-countup"
 const stats = [
 	{
 		num: 4,
-		text: "Iş Tejribe",
+		text: "Experience",
 	},
 	{
 		num: 7,
-		text: "Proýekt tamamlandy",
+		text: "Finished Project",
 	},
 	{
 		num: 3,
-		text: "Işlenen diller",
+		text: "Language",
 	},
 	{
 		num: 4,
-		text: "Düzülen serverler",
+		text: "Servers",
 	},
 ]
 

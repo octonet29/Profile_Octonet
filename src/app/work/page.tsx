@@ -1,8 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import React, { useState } from "react"
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
+
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
 import {
 	Tooltip,
@@ -18,8 +17,8 @@ const projects = [
 	{
 		num: "01",
 		category: "frontend",
-		title: "Pizza Kafe",
-		description: "Kiçiräk mini proýekt beta görnüşinde",
+		title: "Pizza Cafe",
+		description: " Mini project about cafe(Beta version)",
 		stack: [{ name: "React" }, { name: "Css" }, { name: "TypeScript" }],
 		image: "/assets/work/thumb1.png",
 		live: "",
@@ -29,11 +28,6 @@ const projects = [
 
 const Work = () => {
 	const [project, setProject] = useState(projects[0])
-
-	// const handleSlideChange = ({ swiper }: any) => {
-	// 	const currentIndex = swiper.activeIndex
-	// 	setProject(project[currentIndex])
-	// }
 
 	return (
 		<motion.div
@@ -67,18 +61,6 @@ const Work = () => {
 							</ul>
 							<div className="border border-white/20"></div>
 							<div className="flex items-center gap-4">
-								<Link href={project.live}>
-									<TooltipProvider delayDuration={100}>
-										<Tooltip>
-											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-												<BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-											</TooltipTrigger>
-											<TooltipContent>
-												<p>Live project</p>
-											</TooltipContent>
-										</Tooltip>
-									</TooltipProvider>
-								</Link>
 								<Link href={project.live}>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
