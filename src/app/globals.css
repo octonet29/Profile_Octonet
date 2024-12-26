@@ -7,7 +7,7 @@
 		--font-jetbrainsMono: "JetBrains Mono", monospace;
 	}
 	body {
-		@apply border-border font-primary  bg-gradient-to-b from-[#2663D6] to-[#99BDFF] text-white leading-loose h-[100vh];
+		@apply border-border font-primary bg-primary text-white leading-loose;
 	}
 	.h1 {
 		@apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
@@ -17,5 +17,12 @@
 	}
 	.h3 {
 		@apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+	}
+
+	.text-outline {
+		-webkit-text-stroke: 1px #fff;
+	}
+	.text-outline-hover {
+		-webkit-text-stroke: 1px #00ff99;
 	}
 }
