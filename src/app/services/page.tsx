@@ -26,13 +26,6 @@ const services = [
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem consequuntur voluptas",
 		href: "",
 	},
-	{
-		num: "04",
-		title: "Seo",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem consequuntur voluptas",
-		href: "",
-	},
 ]
 
 const Services = () => {
