@@ -27,7 +27,8 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"src/components/ui/Button",
-		"src/components/Nav.jsx"
+		"src/components/Nav.jsx",
+		"src/components/Services.jsx"
 	],
 	"exclude": ["node_modules"]
 }

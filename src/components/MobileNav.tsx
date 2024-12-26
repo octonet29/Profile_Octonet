@@ -4,26 +4,27 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { CiMenuFries } from "react-icons/ci"
+import Image from "next/image"
 
 const links = [
 	{
-		name: "Baş sahypa",
+		name: "Главная",
 		path: "/",
 	},
-	// {
-	// 	name: "Serwis",
-	// 	path: "/services",
-	// },
 	{
-		name: "Resýume",
+		name: "Услуги",
+		path: "/services",
+	},
+	{
+		name: "О нас",
 		path: "/resume",
 	},
 	{
-		name: "Işler",
+		name: "Новости",
 		path: "/work",
 	},
 	{
-		name: "Kontakt",
+		name: "Контакты",
 		path: "/contact",
 	},
 ]
@@ -34,14 +35,12 @@ const MobileNav = () => {
 	return (
 		<Sheet>
 			<SheetTrigger className="flex justify-center items-center">
-				<CiMenuFries className="text-[32px] text-accent" />
+				<CiMenuFries className="text-[32px]  text-accent" />
 			</SheetTrigger>
 			<SheetContent className="flex flex-col">
 				<div className="mt-32 mb-40 text-center text-2xl">
 					<Link href="/">
-						<h1 className="text-4xl font-semibold">
-							Octonet <span className="text-accent">.</span>
-						</h1>
+						<Image src="/logo.svg" alt={""} width={100} height={100} />
 					</Link>
 				</div>
 				<nav className="flex flex-col justify-center items-center gap-8">

@@ -13,15 +13,16 @@ const Home = () => {
 					<div className="text-center xl:text-left order-2 xl:order-none">
 						<span className="text-xl">Web Developer</span>
 						<h1 className="h1 mb-6">
-							Salam meniň adym <br />{" "}
-							<span className="text-accent">Gülbahar</span>
+							Hello my name is <br />
+							<span className="text-accent">Gulbahar</span>
 						</h1>
 						<p className="max-w-[600px] mb-9 text-white/80">
-							Özim barada kiçiräk maglumat aýdanymda men 4 ýyl programmist bolup
-							işleýärin. 4 ýylyň içinde men 7 we ondan köp proýektlaryň üstünde
-							işledim. Olaryň içinde Halal söwda, Hilli söwda, Readit Store,
-							Lomaý söwda ýaly saýtlar girýär. Saýtlardan başgada kiçiräk
-							aplicationlary we serverleri(Nginx) işledim.
+							To tell you a little about myself, I have been working as a
+							programmer for 4 years. In those 4 years, I have worked on 7 or
+							more projects. These include sites such as Halal Shopping, Hilli
+							Shopping, Readit Store, and Lomay Shopping. In addition to the
+							sites, I have also developed smaller applications and servers
+							(Nginx).
 						</p>
 						{/* subs btn */}
 						<div className="flex flex-col xl:flex-row items-center gap-8">
