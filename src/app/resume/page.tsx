@@ -28,10 +28,10 @@ const about = {
 		"In 2019, I learned HTML CSS and started working as a front end developer at Sap Cözgüt. Then I learned Python and wrote a small API in that language. Then I switched to React, but I had to abandon the parking project in React and switch to Flutter. I also created a phone application like Sap Sargyt in that language. Currently, I work in React and Server.",
 	info: [
 		{ fieldName: "Name", fieldValue: "Gulbahar" },
-		{ fieldName: "Phone", fieldValue: "+99361099273" },
+		{ fieldName: "Phone", fieldValue: "+8615578112559" },
 		{ fieldName: "Experience", fieldValue: "4 year" },
 		{ fieldName: "Nation", fieldValue: "Turkmen" },
-		{ fieldName: "Gmail", fieldValue: "20shamballa01@gmail.com" },
+		{ fieldName: "Gmail", fieldValue: "yakupgayliyev@gmail.com" },
 	],
 }
 
